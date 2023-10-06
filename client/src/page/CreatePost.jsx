@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -28,7 +29,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('https://localhost:5173/api/v1/dalle', {
+        const response = await fetch('https://dalle-arbb.onrender.com/api/v1/dalle', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -81,7 +82,7 @@ const CreatePost = () => {
     <section className="max-w-7xl mx-auto">
       <div>
         <h1 className="font-extrabold text-[#222328] text-[32px]">Create</h1>
-        <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px]">Generate an imaginative image through DALL-E AI and share it with the community</p>
+        <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px]">Generate an imaginative and Visually Stunning Image through AI IMAGE GENERATOR</p>
       </div>
 
       <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
@@ -90,7 +91,7 @@ const CreatePost = () => {
             labelName="Your Name"
             type="text"
             name="name"
-            placeholder="Ex., john doe"
+            placeholder=""
             value={form.name}
             handleChange={handleChange}
           />
@@ -105,7 +106,7 @@ const CreatePost = () => {
             isSurpriseMe
             handleSurpriseMe={handleSurpriseMe}
           />
-
+          {/* Creating the container for that image */}
           <div className="relative bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-64 p-3 h-64 flex justify-center items-center">
             { form.photo ? (
               <img
