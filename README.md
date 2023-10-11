@@ -3,6 +3,8 @@
 # OpenAI Project with Vite, Tailwind CSS, React, Mongoose, Node.js, Dotenv, and Cors
 
 Welcome to our OpenAI project repository! This project combines the power of OpenAI with modern web technologies including Vite, Tailwind CSS, React, Mongoose, Node.js, Dotenv, and Cors. This README file will guide you on how to set up, run, and use this project.
+![Screenshot (155)](https://github.com/jayantsB123/AI-Image-Generator/assets/97082996/a13a0157-1e35-4ac0-8baf-128ab6b10eea)
+![Screenshot (157)](https://github.com/jayantsB123/AI-Image-Generator/assets/97082996/6fc673ac-48d2-42f6-9b8d-ec5a24aac9ea)
 
 ## Prerequisites
 
