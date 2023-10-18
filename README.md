@@ -2,10 +2,10 @@
 
 # OpenAI Project with Vite, Tailwind CSS, React, Mongoose, Node.js, Dotenv, and Cors
 
-Welcome to our OpenAI project repository! This project combines the power of OpenAI with modern web technologies including Vite, Tailwind CSS, React, Mongoose, Node.js, Dotenv, and Cors. This README file will guide you on how to set up, run, and use this project.
 ![Screenshot (155)](https://github.com/jayantsB123/AI-Image-Generator/assets/97082996/a13a0157-1e35-4ac0-8baf-128ab6b10eea)
 ![Screenshot (157)](https://github.com/jayantsB123/AI-Image-Generator/assets/97082996/6fc673ac-48d2-42f6-9b8d-ec5a24aac9ea)
 
+Welcome to our OpenAI project repository! This project combines the power of OpenAI with modern web technologies including Vite, Tailwind CSS, React, Mongoose, Node.js, Dotenv, and Cors. This README file will guide you on how to set up, run, and use this project.
 ## Prerequisites
 
 Before you begin, make sure you have the following installed on your system:
@@ -56,24 +56,6 @@ Before you begin, make sure you have the following installed on your system:
    cd ../client
    npm run dev
    ```
-
-## Usage
-
-Once the project is set up and running, you can access the application in your web browser at `http://localhost:3000`. The application provides a user interface to interact with the OpenAI API using Vite, Tailwind CSS, React, Mongoose, Node.js, Dotenv, and Cors.
-
-### Features
-
-- **Feature 1**: _Describe the first feature._
-- **Feature 2**: _Describe the second feature._
-- **Feature 3**: _Describe the third feature._
-
-### How to Use
-
-1. **Step 1**: _Explain the first step._
-2. **Step 2**: _Explain the second step._
-3. **Step 3**: _Explain the third step._
-
-Feel free to explore the application and utilize the power of OpenAI through this user-friendly interface!
 
 ## Contributing
 
